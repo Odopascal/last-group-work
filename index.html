@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!-- hero page begins -->
+  <header class="header">
+    <nav class="nav-bar">
+        <ul class="navbar">
+            <div class="logo">
+             <a href="index.html"><img src="./images/images for matins/logo 1.png"></a>
+           </div>
+           <input type="checkbox" id="check">
+           <label for="check" class="open-menu">
+            <i class="bx bx-menu"></i>
+          </label>
+           <span class="menu">
+            <li>
+              <a href="#">HOME</a>
+              <a href="#">ABOUT</a>
+              <a href="#">WORK</a>
+              <a href="#">SERVICES</a>
+              <a href="#">TESTIMONIAL</a>
+              <a href="#">BLOG</a>
+              <a href="#">CONTACT</a>
+          </li>
+          <label for="check" class="open-menu">
+            <i class="bx bx-menu"></i>
+          </label>
+            <!-- <label for="check" class="close-menu">
+              <i class="bx bx-x"></i>
+            </label> -->
+           </span>
+           <!-- <label for="check" class="open-menu">
+            <i class="bx bx-menu"></i>
+          </label> -->
+          </ul>
+        <div class="nav-btn">
+             <a class="talk" href="#">Lets's Talk →</a>
+             <span class="icon" id="menuicon" onclick="opennav()">&#9776;</span>
+        </div>
+        <!-- slide-nav -->
+        <div id="slidenav" class="slidenav">
+          <a href="javascript:void(0)" class="closeicon" id="closeicon" onclick="closenav()">&times;</a>
+          <img src="./images/images for matins/logo 1.png">
+          <p>
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
+          </p>
+          <div class="contacts">
+            <h3>ADDRESS</h3>
+            <p>Victoria Street London,</p>
+            <h3>EMAIL</h3>
+            <p>matias999@.com</p>
+            <h3>CALL NOW</h3>
+            <p>+98 4758 2154 021</p>
+            <div class="slide-social-icon">
+              <i class='bx bxl-facebook'></i>
+              <i class='bx bxl-twitter'></i>
+              <i class='bx bxl-linkedin'></i>
+              <i class='bx bxl-youtube'></i>
+            </div>
+          </div>
+          <div class="slide-btn">
+            <a href="#">Lets's Talk →</a>
+       </div>
+      </div>
+    </nav>
+  <!-- hero side -->
+  <section class="hero">
+    <section class="in-hero">
+        <div class="left-v">
+            <p>
+              <i class='bx bx-dialpad'></i>
+               (+02)-574-328-301
+            </p>
+            <h3>
+                SCROLL DOWN
+                <img src="./images/images for matins/photo-2024-04-29-21-47-36_360.jpg">
+            </h3>
+        </div>
+        <section class="hero-content">
+           <div class="hero-intro">
+            <p>
+                Currently Available For Freelancing<br>Worldwide   :arrow_upper_right:
+            </p>
+            <hr>
+            <h1>
+                Creative Visual <br> <span class="text" data-fill-text="Designer">Designer</span>
+            </h1>
+            <div class="anim">
+                 <img src="./images/images for matins/photo-2024-04-29-21-46-50.jpg" class="swingimage">
+                 <i class='bx bx-play-circle bx-burst' style='color:#ffffff' ></i>
+                 <p>Work <br>Process</p>
+            </div>
+           </div>
+           <div class="hero-img">
+             <img src="./images/images for matins/banner-man_720 logo 2.png">
+           </div>
+        </section>
+        <div class="left-v">
+          <h3>
+            FOLLOW ME
+            <img src="./images/images for matins/photo-2024-04-29-21-47-36_360.jpg">
+        </h3>
+          <h2>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-youtube'></i>
+            <i class='bx bxl-linkedin'></i>
+            <i class='bx bxl-instagram'></i>
+          </h2>
+      </div>
+    </section>
+    <!-- first slide section -->
+  </section>
+  <marquee>
+    <img src="./images/images for matins/ts1 logo5.png">
+    <img src="./images/images for matins/ts2 logo6.png">
+    <img src="./images/images for matins/ts3 logo4.png">
+    <img src="./images/images for matins/ts3 logo4.png">
+    <img src="./images/images for matins/ts4 logo5.png">
+    <img src="./images/images for matins/ts5 logo12.png">
+    <img src="./images/images for matins/ts6 logo11.png">
+    <img src="./images/images for matins/ts7 logo10.png">
+  </marquee>
+</header>
+<!-- intro section -->
+<section class="body">
+   <div class="about">
+       <img src="./images/images for matins/photo-2024-04-29-21-47-39 star.jpg">
+       <h3>
+        I'm David Matias, I'm a Brand & Webflow Designer, Currently residing in the lush Victoria Street London, Matias operates globally and is ready to take on any design challenge.
+       </h3>
+   </div>
+</section>
+<!-- tabs section -->
+<section class="tabing">
+<div class="tabs">
+  <button class="tab" onclick="openTab(event, 'About')">ABOUT</button>
+  <button class="tab" onclick="openTab(event, 'Experience')">EXPERIENCE</button>
+  <button class="tab" onclick="openTab(event, 'Education')">EDUCATION</button>
+  <button class="tab" onclick="openTab(event, 'Skills')">SKILLS</button>
+ </div>
+ <div id="About" class="tab-content">
+  <h3>About</h3>
+  <p>Content for the About section...</p>
+ </div>
+ <div id="Experience" class="tab-content">
+  <h3>Experience</h3>
+  <p>Content for the Experience section...</p>
+ </div>
+ <div id="Education" class="tab-content">
+  <h3>Education</h3>
+  <p>Content for the Education section...</p>
+ </div>
+ <div id="Skills" class="tab-content">
+  <h3>Skills</h3>
+  <p>Content for the Skills section...</p>
+ </div>
+</section>
+GH
+
+<script src="./index.js"></script>
+</body>
+</html>
